@@ -1,0 +1,153 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 110px;
+    padding: 20px;
+    top: 0;
+    /* margin: 130px 0px 0px 250px; */
+    background-color: #f9f9f9;
+    /* background: transparent; */
+}
+
+/* .video-suggestion-box{
+    margin: 15px;
+} */
+
+
+.thumbnail {
+    width: 100%;
+}
+
+.content-box {
+    margin-top: 8px;
+    display: flex;
+}
+
+.channel-profile {
+    width: 50px;
+}
+
+.profile {
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.main-content {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.channel-name,
+.about-video {
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.channel-name span {
+    background-color: rgb(96, 96, 96);
+    padding: 1px 3px;
+    font-size: 8px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 2px;
+}
+
+.sidebar {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.navbar {
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar:last-child {
+    margin-bottom: 10px;
+}
+
+.side-icon {
+    margin-left: 29px;
+}
+
+.side-icon img {
+    width: 22px;
+}
+
+.side-text {
+    margin-left: 25px;
+}
+
+.first-section {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.second-section,
+.third-section {
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.side-head {
+    color: #606060;
+    margin-left: 29px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.side-profile {
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 33px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.about p {
+    padding-right: 10px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #7a6060;
+}
+
+
+.copyright {
+    margin-left: 33px;
+    color:#7a6060;
+    
+    font-size: 12px;
+}
